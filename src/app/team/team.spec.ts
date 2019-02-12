@@ -6,9 +6,9 @@ describe('team', () =>{
     it('should return 2 if the input is input1', () => {
         const result = team(input1);
         expect(result).toBe(2);
-    })
+    });
     it('should return 1 if the input is input2', () => {
-        const result = team(input1);
+        const result = team(input2);
         expect(result).toBe(1);
-    })
+    });
 })
