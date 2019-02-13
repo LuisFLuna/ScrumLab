@@ -19,4 +19,15 @@ describe('AntonAndDanik', () => {
     s = "DADADA"
     expect(AntonAndDanik(n,s)).toBe("Friendship");
   });
+  it('Shoul return "Inconsistencia" if parameter n == s.length is false', () => {
+    n = 5;
+    s = "DADADA"
+    expect(AntonAndDanik(n,s)).toBe("Inconsistencia");
+  });
+  it('Shoul return "Inconsistencia" if parameter 1 <= n <= 100000 is false', () => {
+    n = 100001;
+    s = "DADADA"
+    expect(AntonAndDanik(n,s)).toBe("Inconsistencia");
+  });
+
 })
