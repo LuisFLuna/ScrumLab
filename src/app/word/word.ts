@@ -11,6 +11,5 @@ export function word(palabra){
       countLowerCaseLetter++;
     }
   }
-  
   return ((countUpperCaseLetter > countLowerCaseLetter) ? palabra.toUpperCase() : palabra.toLowerCase());
 }
